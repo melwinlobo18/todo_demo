@@ -4,7 +4,6 @@
 
 A new Flutter projec.
 
-Line 3
 
 
 
