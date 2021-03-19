@@ -6,7 +6,7 @@ node{
               sh  '''
 	      	  export PATH=$PATH:/home/melwinlobo18/snap/flutter/common/flutter/bin
 		  echo $PATH
-                  flutter build apk
+                  sudo flutter build apk
                   '''
             }
 }
