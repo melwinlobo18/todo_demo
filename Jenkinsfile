@@ -5,7 +5,7 @@ node{
       stage('Build') {
               sh  '''
 	          cd todo_demo/
-                  flutter build apk
+                  sudo flutter build apk
                   '''
             }
 }
