@@ -1,11 +1,11 @@
-node{
+node ('Windows_Node') {
 	
       checkoutSCM()
 
       stage('Build') {
               sh  '''
 	          cd todo_demo/
-                  sudo flutter build apk
+                  flutter build apk
                   '''
             }
 }
