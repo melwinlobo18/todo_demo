@@ -11,7 +11,9 @@ node{
 
 def checkoutSCM(){
     stage("Checkout SCM") {
-	rm -rf todo_demo/
-        sh "git clone -b master https://github.com/melwinlobo18/todo_demo.git"
+        sh '''
+		rm -rf todo_demo/
+		git clone -b master https://github.com/melwinlobo18/todo_demo.git
+	   '''
     }
 }
