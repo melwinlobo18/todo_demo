@@ -4,9 +4,10 @@ node{
 
       stage('Build') {
               sh  '''
+	      	  sudo su
 	      	  export PATH=$PATH:/home/melwinlobo18/snap/flutter/common/flutter/bin
 		  echo $PATH
-                  sudo flutter build apk
+                  flutter build apk
                   '''
             }
 }
